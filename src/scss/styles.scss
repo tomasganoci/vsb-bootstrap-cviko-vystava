@@ -1,0 +1,12 @@
+// 1. Načti funkce a proměnné z Bootstrapu
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// 2. Tady můžeš přepsat proměnné
+$navbar-light-active-color: var(--bs-white);
+$navbar-light-hover-color: var(--bs-white);
+
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./custom.scss";
